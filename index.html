@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Netflix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="img/Netflix_Logo_PMS.png" alt="Logo Netflix">
+            </div>
+            <div class="btn">
+                <button class="login">
+                    <a href="https://www.netflix.com/ar-en/" target="_blank" style="text-decoration: none; color: white;">Go to netflix</a>
+                </button>
+            </div>
+            <div class="text-input">
+                <h1>Unlimited movies, TV shows, and more</h1>
+                <h2>Watch anywhere. Cancel anytime.</h2>
+                <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+                <input type="email" name="email" id="email" placeholder="Email address">
+                <button class="get-started" id="submit">Get Started ></button>
+                <p id="errors">Error porfavor coloque un email</p>
+            </div>
+        </div>
+    </header>
+    <section class="video-movie">
+        <span class="tv-text">
+            <h1>Enjoy on your TV</h1>
+            <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+        </span>
+        <span class="tv-video">
+            <img src="img/tv.png" alt="">
+            <video src="video/video-tv-0819.m4v" autoplay muted ></video>
+        </span>
+    </section>
+    <section class="phone">
+        <span class="phone-img">
+            <img src="img/mobile-0819.jpg" alt="">
+        </span>
+        <span class="phone-text">
+            <h1>Download your shows to watch offline</h1>
+            <p>Save your favorites easily and always have something to watch</p>
+        </span>
+    </section>
+    <section class="watch_everywhere">            
+        <span class="text_watch">
+            <h1>Watch everywhere</h1>
+            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        </span>
+        <span class="img_watch">
+            <img src="img/device-pile.png" alt="">
+            <video src="video/video-devices.m4v" autoplay muted></video>
+        </span>
+    </section>
+    <section class="kids">
+        <span class="kids_img">
+            <img src="img/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png" alt="">
+        </span>
+        <span class="kids_text">
+            <h1>Create profiles for kids</h1>
+            <p>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p>
+        </span>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
