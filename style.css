@@ -304,3 +304,499 @@ footer{
     z-index: 1;
 }
 
+/* ========== TABLET (max-width: 1024px) ========== */
+@media screen and (max-width: 1024px) {
+
+    /* --- Header --- */
+    header {
+        height: 70vh;
+    }
+
+    .header-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .logo img {
+        width: 140px;
+        height: 60px;
+        margin-right: 0;
+    }
+
+    .text-input h1 {
+        font-size: 36px;
+    }
+
+    .text-input h2 {
+        font-size: 20px;
+    }
+
+    .text-input h3 {
+        font-size: 17px;
+    }
+
+    .text-input input {
+        width: 30vw;
+    }
+
+    .text-input .get-started {
+        width: 15vw;
+        font-size: 20px;
+    }
+
+    /* --- Sections --- */
+    .video-movie {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 40px 20px;
+        gap: 20px;
+    }
+
+    .tv-text {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .tv-text h1 {
+        font-size: 40px;
+    }
+
+    .tv-text p {
+        width: 60vw;
+        margin: 0 auto;
+    }
+
+    .tv-video video {
+        width: 50vw;
+        height: auto;
+        margin-right: 0;
+    }
+
+    .tv-video img {
+        width: 45vw;
+        height: auto;
+        position: relative;
+        transform: none;
+        top: 0;
+        left: 0;
+    }
+
+    .tv-video {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Phone section */
+    .phone {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+    }
+
+    .phone-img {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .phone-img img {
+        width: 50vw;
+    }
+
+    .phone-text {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .phone-text h1 {
+        font-size: 28px;
+    }
+
+    /* Watch everywhere */
+    .watch_everywhere {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .text_watch {
+        text-align: center;
+    }
+
+    .text_watch p {
+        width: 60vw;
+        margin: 0 auto;
+    }
+
+    .img_watch img {
+        width: 50vw;
+    }
+
+    .img_watch video {
+        width: 35vw;
+        height: auto;
+    }
+
+    /* Kids */
+    .kids {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+    }
+
+    .kids_img img {
+        width: 60vw;
+        height: auto;
+    }
+
+    .kids_text {
+        text-align: center;
+    }
+
+    .kids_text h1 {
+        font-size: 36px;
+    }
+
+    .kids_text p {
+        width: 60vw;
+        margin: 0 auto;
+    }
+
+    /* Footer / FAQ */
+    .text_question h1 {
+        font-size: 34px;
+    }
+
+    .dropdwon button {
+        width: 70vw;
+        font-size: 18px;
+    }
+
+    .dropdwon-text {
+        width: 70vw;
+        margin-left: 14.5vw;
+        font-size: 24px;
+    }
+}
+
+/* ========== MOBILE PHONES (max-width: 768px) ========== */
+@media screen and (max-width: 768px) {
+
+    /* --- Header --- */
+    header {
+        height: 100vh;
+    }
+
+    .header-container {
+        justify-content: space-between;
+        padding: 10px 15px;
+    }
+
+    .logo img {
+        width: 110px;
+        height: 50px;
+    }
+
+    .text-input {
+        width: 90%;
+    }
+
+    .text-input h1 {
+        font-size: 28px;
+    }
+
+    .text-input h2 {
+        font-size: 17px;
+    }
+
+    .text-input h3 {
+        font-size: 15px;
+    }
+
+    .text-input input {
+        width: 55vw;
+        height: 5vh;
+    }
+
+    .text-input .get-started {
+        display: block;
+        width: 50vw;
+        height: 5vh;
+        margin: 15px auto 0;
+        font-size: 18px;
+    }
+
+    /* --- Sections --- */
+    .video-movie {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 30px 15px;
+        gap: 15px;
+    }
+
+    .tv-text {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .tv-text h1 {
+        font-size: 30px;
+    }
+
+    .tv-text p {
+        width: 80vw;
+        font-size: 16px;
+    }
+
+    .tv-video video {
+        width: 70vw;
+        height: auto;
+        margin-right: 0;
+    }
+
+    .tv-video img {
+        width: 65vw;
+        height: auto;
+        position: relative;
+        transform: none;
+        top: 0;
+        left: 0;
+    }
+
+    /* Phone section */
+    .phone {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 15px;
+    }
+
+    .phone-img img {
+        width: 70vw;
+    }
+
+    .phone-text h1 {
+        font-size: 24px;
+    }
+
+    .phone-text p {
+        font-size: 16px;
+    }
+
+    /* Watch everywhere */
+    .watch_everywhere {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 30px 15px;
+    }
+
+    .text_watch h1 {
+        font-size: 26px;
+    }
+
+    .text_watch p {
+        width: 80vw;
+        font-size: 16px;
+    }
+
+    .img_watch img {
+        width: 70vw;
+    }
+
+    .img_watch video {
+        width: 50vw;
+        height: auto;
+    }
+
+    /* Kids */
+    .kids {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 15px;
+    }
+
+    .kids_img img {
+        width: 80vw;
+    }
+
+    .kids_text h1 {
+        font-size: 30px;
+    }
+
+    .kids_text p {
+        width: 80vw;
+        font-size: 16px;
+    }
+
+    /* Footer / FAQ */
+    .text_question h1 {
+        font-size: 28px;
+    }
+
+    .dropdwon button {
+        width: 85vw;
+        font-size: 16px;
+        height: auto;
+        padding: 15px 20px;
+    }
+
+    .dropdwon-text {
+        width: 85vw;
+        margin-left: 7vw;
+        font-size: 20px;
+    }
+}
+
+/* ========== SMALL PHONES (max-width: 480px) ========== */
+@media screen and (max-width: 480px) {
+
+    /* --- Header --- */
+    header {
+        height: 100vh;
+        background-position: center;
+    }
+
+    .logo img {
+        width: 90px;
+        height: 40px;
+    }
+
+    button {
+        padding: 6px 8px;
+        font-size: 11px;
+    }
+
+    .text-input {
+        width: 95%;
+    }
+
+    .text-input h1 {
+        font-size: 22px;
+        line-height: 1.3;
+    }
+
+    .text-input h2 {
+        font-size: 15px;
+    }
+
+    .text-input h3 {
+        font-size: 13px;
+    }
+
+    .text-input input {
+        width: 70vw;
+        height: 5vh;
+        display: block;
+        margin: 10px auto 0;
+    }
+
+    .text-input .get-started {
+        width: 60vw;
+        height: 5vh;
+        font-size: 16px;
+        margin: 10px auto 0;
+    }
+
+    /* --- Sections --- */
+    .video-movie {
+        padding: 20px 10px;
+    }
+
+    .tv-text h1 {
+        font-size: 24px;
+    }
+
+    .tv-text p {
+        width: 90vw;
+        font-size: 14px;
+    }
+
+    .tv-video video {
+        width: 85vw;
+    }
+
+    .tv-video img {
+        width: 80vw;
+    }
+
+    /* Phone section */
+    .phone {
+        padding: 20px 10px;
+    }
+
+    .phone-img img {
+        width: 85vw;
+    }
+
+    .phone-text h1 {
+        font-size: 20px;
+    }
+
+    .phone-text p {
+        font-size: 14px;
+    }
+
+    /* Watch everywhere */
+    .watch_everywhere {
+        padding: 20px 10px;
+    }
+
+    .text_watch h1 {
+        font-size: 22px;
+    }
+
+    .text_watch p {
+        width: 90vw;
+        font-size: 14px;
+    }
+
+    .img_watch img {
+        width: 85vw;
+    }
+
+    .img_watch video {
+        width: 60vw;
+    }
+
+    /* Kids */
+    .kids {
+        padding: 20px 10px;
+    }
+
+    .kids_img img {
+        width: 90vw;
+    }
+
+    .kids_text h1 {
+        font-size: 24px;
+    }
+
+    .kids_text p {
+        width: 90vw;
+        font-size: 14px;
+    }
+
+    /* Footer / FAQ */
+    .text_question h1 {
+        font-size: 22px;
+        padding: 0 10px;
+    }
+
+    .dropdwon button {
+        width: 92vw;
+        font-size: 14px;
+        padding: 12px 15px;
+    }
+
+    .dropdwon-text {
+        width: 92vw;
+        margin-left: 4vw;
+        font-size: 16px;
+    }
+}
+
